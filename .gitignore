@@ -1,0 +1,30 @@
+# Archivos compilados
+*.o
+*.out
+*.exe
+
+# Directorios de compilación
+obj/
+bin/
+
+# Resultados (opcional: puedes querer commitear algunos resultados de ejemplo)
+# results/*.ppm
+# benchmarks/*.csv
+# benchmarks/*.png
+
+# Archivos temporales
+*~
+.DS_Store
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/

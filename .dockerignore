@@ -1,0 +1,25 @@
+# Archivos y directorios a ignorar al construir la imagen Docker
+
+# Directorios de compilación
+obj/
+bin/
+
+# Resultados y benchmarks
+results/*.ppm
+benchmarks/*.csv
+benchmarks/*.png
+
+# Git
+.git/
+.gitignore
+
+# Documentación
+README.md
+LICENSE
+
+# Archivos temporales
+*.o
+*.out
+*.log
+*~
+.DS_Store
